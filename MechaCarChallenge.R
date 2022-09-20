@@ -1,7 +1,7 @@
 # Deliverable 1
 library(tidyverse)
 library(dplyr)
-setwd("C:/Users/Thermotics_04/Desktop/DA_Bootcamp/Module_15/R_Analysis/Challenge")
+# setwd("C:/Users/Thermotics_04/Desktop/DA_Bootcamp/Module_15/R_Analysis/Challenge")
 # Import and read in the MechaCar_mpg.csv file as a dataframe.
 MechaCar_mpg_table <- read.csv(file='MechaCar_mpg.csv',check.names=F,stringsAsFactors = F)
 #Perform linear regression
@@ -12,7 +12,7 @@ summary(lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_cleara
 #Import and read in the Suspension_Coil.csv file as a table.
 Suspension_Coil_table <- read.csv(file='Suspension_Coil.csv',check.names=F,stringsAsFactors = F)
 # creates a total_summary dataframe using the summarize()
- total_summary <- Suspension_Coil_table %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Variance_PSI=var(PSI), STDEV_PSI=sd(PSI))
+total_summary <- Suspension_Coil_table %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Variance_PSI=var(PSI), STDEV_PSI=sd(PSI))
 # create lot summary dataframe
 lot_summary <- Suspension_Coil_table %>% group_by(Manufacturing_Lot) %>% summarize(Mean_PSI=mean(PSI), Median_PSI=median(PSI), Variance_PSI=var(PSI), STDEV_PSI=sd(PSI), .groups = 'keep')
 #Deliverable 3
