@@ -26,3 +26,32 @@
 
 - With the understanding that the design specifications for the MechaCar suspension coils mandate that the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI). Lot 3 does not meet the design specifications due to the variance being over 100 which is causing a higher variance level at the overall lot level. (Table 1)
 - Lot 1 and Lot 2 are within the 100 PSI variance requirement. 
+
+ ## T-Tests on Suspension Coils
+ - T-test are used to determine if all manufacturing lots, and each individual lot (Lot 1, Lot 2, Lot 3) are statistically different from the populatio mean = 1,500 pounds per sqaure  inch. 
+ 
+  __T-Test of All Manufacturing Lots__
+ 
+ ![image](https://user-images.githubusercontent.com/106709942/191380297-575418b4-0485-488a-bc51-55eaa44b78d2.png)
+ 
+ - The mean across all manufacturing lots is not statistically different from the population.
+ - With a p-Value of 0.06 that is higher than the common significance level of 0.05, there is not enough evidence to support rejecting the null hypothesis.
+
+ __Lot 1__
+
+![image](https://user-images.githubusercontent.com/106709942/191381079-2e9a9f8d-0643-4b85-90cf-fd2d86835222.png)
+
+- The P-value = 1, which means that the mean of the manufacturing lot 1 is identical to the population mean of 1,500. 
+- Fail to reject the null hypothesis since there is not a statisitcal difference from the population. 
+
+__Lot 2__
+
+![image](https://user-images.githubusercontent.com/106709942/191381490-f8cee955-fc34-414c-a31d-c4075c95d620.png)
+
+- The p-value = 0.61, thus, we fail to reject the null hpothesis. There is no statistical difference between Manufacturing Lot 2 and the population mean of 1,500.
+
+__Lot 3__
+
+![image](https://user-images.githubusercontent.com/106709942/191381746-874009c5-2b9d-44b5-8c6c-571d90209acc.png)
+
+- The p-value = 0.04, thus, we reject the null hypothesis which means that manufacturing lot 3 is statistically different from from the population mean of 1,500.
