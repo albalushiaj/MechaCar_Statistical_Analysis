@@ -55,3 +55,6 @@ __Lot 3__
 ![image](https://user-images.githubusercontent.com/106709942/191381746-874009c5-2b9d-44b5-8c6c-571d90209acc.png)
 
 - The p-value = 0.04, thus, we reject the null hypothesis which means that manufacturing lot 3 is statistically different from from the population mean of 1,500.
+
+ ## Study Design: MechaCar vs Competition
+ 
