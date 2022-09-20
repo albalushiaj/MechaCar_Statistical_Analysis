@@ -57,4 +57,6 @@ __Lot 3__
 - The p-value = 0.04, thus, we reject the null hypothesis which means that manufacturing lot 3 is statistically different from from the population mean of 1,500.
 
  ## Study Design: MechaCar vs Competition
+ A short description of a statistical study that can quantify how the MechaCar performs against the competition.
  
+ In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
