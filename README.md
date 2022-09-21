@@ -72,8 +72,8 @@ __Lot 3__
  - Sale Package 
 
  Hypothesis: Null and Alternative
- - Null Hypothesis (Ho): MechaCar comparable care is correctly priced based on KPIs, and competition.
- - Alternative Hypothesis (Ha): MechaCar comparable care is NOT correctly priced based on KPIs, and competition.
+ - Null Hypothesis (Ho): MechaCar comparable car is correctly priced based on KPIs, and competition.
+ - Alternative Hypothesis (Ha): MechaCar comparable car is NOT correctly priced based on KPIs, and competition.
  
 Statistical Tests:
  - Multiple Linear regression  to determine if the factors that have correlation or not to price.
