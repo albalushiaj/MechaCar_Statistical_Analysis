@@ -58,5 +58,23 @@ __Lot 3__
 
  ## Study Design: MechaCar vs Competition
  A short description of a statistical study that can quantify how the MechaCar performs against the competition.
+ - This study would involve MechaCar, and it's competitor data on comparable car models, prices, and Key performance factors of the comparable cars. 
  
- In your study design, think critically about what metrics would be of interest to a consumer: for a few examples, cost, city or highway fuel efficiency, horse power, maintenance cost, or safety rating.
+ Metrics:
+ - Price
+ - Fuel Efficiency 
+ - MPG
+ - Horsepower
+ - Safety Rating
+ - Maintance Cost
+ - Resale value
+ - Storage capacity
+ - Sale Package 
+
+ Hypothesis: Null and Alternative
+ - Null Hypothesis (Ho): MechaCar comparable care is correctly priced based on KPIs, and competition.
+ - Alternative Hypothesis (Ha): MechaCar comparable care is NOT correctly priced based on KPIs, and competition.
+ 
+Statistical Tests:
+ - Multiple Linear regression  to determine if the factors that have correlation or not to price.
+ - See which factors have the greatest impact on price. 
